@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-24T05:10:34 IST" name="Loan Department" finished-at="2021-07-24T05:10:34 IST" duration-ms="330">
+    <groups>
+    </groups>
+    <test started-at="2021-07-24T05:10:34 IST" name="Personal loan" finished-at="2021-07-24T05:10:34 IST" duration-ms="113">
+      <class name="test.day4">
+        <test-method signature="LoginApiHomeLoan()[pri:0, instance:test.day4@a3d8174]" started-at="2021-07-24T05:10:34 IST" name="LoginApiHomeLoan" finished-at="2021-07-24T05:10:34 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiHomeLoan -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:test.day4@a3d8174]" started-at="2021-07-24T05:10:34 IST" name="MobileLoginHomeLoan" finished-at="2021-07-24T05:10:34 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:test.day4@a3d8174]" started-at="2021-07-24T05:10:34 IST" name="WebLoginHomeLoan" finished-at="2021-07-24T05:10:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method is-config="true" signature="prerequsite()[pri:0, instance:test.day2@44821a96]" started-at="2021-07-24T05:10:34 IST" name="prerequsite" finished-at="2021-07-24T05:10:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequsite -->
+        <test-method signature="thirdTest()[pri:0, instance:test.day2@44821a96]" started-at="2021-07-24T05:10:34 IST" name="thirdTest" finished-at="2021-07-24T05:10:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method is-config="true" signature="LastExecution()[pri:0, instance:test.day2@44821a96]" started-at="2021-07-24T05:10:34 IST" name="LastExecution" finished-at="2021-07-24T05:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastExecution -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method signature="Demo()[pri:0, instance:test.day1@2cdd0d4b]" started-at="2021-07-24T05:10:34 IST" name="Demo" finished-at="2021-07-24T05:10:34 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:test.day1@2cdd0d4b]" started-at="2021-07-24T05:10:34 IST" name="SecondTest" finished-at="2021-07-24T05:10:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal loan -->
+    <test started-at="2021-07-24T05:10:34 IST" name="Car loan" finished-at="2021-07-24T05:10:34 IST" duration-ms="37">
+      <class name="test.day2">
+        <test-method is-config="true" signature="bfsuite()[pri:0, instance:test.day2@44821a96]" started-at="2021-07-24T05:10:34 IST" name="bfsuite" finished-at="2021-07-24T05:10:34 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+        <test-method is-config="true" signature="afsuite()[pri:0, instance:test.day2@44821a96]" started-at="2021-07-24T05:10:34 IST" name="afsuite" finished-at="2021-07-24T05:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsuite -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method signature="LoginApi()[pri:0, instance:test.day3@76c3e77a]" started-at="2021-07-24T05:10:34 IST" name="LoginApi" finished-at="2021-07-24T05:10:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApi -->
+        <test-method signature="MobileLogin()[pri:0, instance:test.day3@76c3e77a]" started-at="2021-07-24T05:10:34 IST" name="MobileLogin" finished-at="2021-07-24T05:10:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogin -->
+        <test-method signature="MobileSignOut(java.lang.String,java.lang.String)[pri:0, instance:test.day3@76c3e77a]" started-at="2021-07-24T05:10:34 IST" name="MobileSignOut" data-provider="getData" finished-at="2021-07-24T05:10:34 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FUName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOut -->
+        <test-method signature="MobileSignOut(java.lang.String,java.lang.String)[pri:0, instance:test.day3@76c3e77a]" started-at="2021-07-24T05:10:34 IST" name="MobileSignOut" data-provider="getData" finished-at="2021-07-24T05:10:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SUName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SFPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOut -->
+        <test-method signature="MobileSignOut(java.lang.String,java.lang.String)[pri:0, instance:test.day3@76c3e77a]" started-at="2021-07-24T05:10:34 IST" name="MobileSignOut" data-provider="getData" finished-at="2021-07-24T05:10:34 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TUName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOut -->
+        <test-method signature="WebLogin()[pri:0, instance:test.day3@76c3e77a]" started-at="2021-07-24T05:10:34 IST" name="WebLogin" finished-at="2021-07-24T05:10:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Car loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
